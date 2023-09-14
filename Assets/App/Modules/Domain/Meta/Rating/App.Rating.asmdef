@@ -1,0 +1,1 @@
+{"name":"App.Rating","allowUnsafeCode":false,"autoReferenced":false,"defineConstraints":null,"includePlatforms":null,"excludePlatforms":null,"noEngineReferences":false,"overrideReferences":false,"precompiledReferences":null,"references":["App.GameCore","OGT.OpenModuleSystem","medvedya.select_implementation_property_drawer"],"versionDefines":null}

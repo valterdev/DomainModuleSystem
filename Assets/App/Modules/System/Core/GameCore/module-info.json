@@ -1,0 +1,1 @@
+{"hash":"5fb990d293a5b4743c9104fbe0fc9d60","type":"X-Flow/Singleton Module","name":"GameCore","custom_manager_name":"","version":"0.1","author":"0.1","site":"","email":"","category":0,"state":0,"description":"Description","preinit":true,"critical":false,"dependencies":[],"utils":[],"plugins":[],"content_files":[],"importantInterfaces":["ISpendable.cs","IReward.cs"]}

@@ -1,0 +1,17 @@
+{
+    "name": "App.GameCore",
+    "rootNamespace": "",
+    "references": [
+        "OGT.OpenModuleSystem",
+        "medvedya.select_implementation_property_drawer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

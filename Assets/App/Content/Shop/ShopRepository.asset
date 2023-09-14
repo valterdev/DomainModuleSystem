@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecc7ecba54f41a08fde7acee695e00e, type: 3}
+  m_Name: ShopRepository
+  m_EditorClassIdentifier: 
+  Bundles:
+  - BundleName: Life donation
+    Cost:
+    - rid: 4903346043243986946
+    - rid: 4903346097322721280
+    Reward:
+    - rid: 4903346043243986947
+  references:
+    version: 2
+    RefIds:
+    - rid: 4903346043243986946
+      type: {class: FixedHealthSpendable, ns: App.Modules.Domain.Mechanics_Features.Health, asm: App.Health}
+      data:
+        health: 10
+    - rid: 4903346043243986947
+      type: {class: GoldReward, ns: App.Modules.Domain.Mechanics_Features.Gold, asm: App.Gold}
+      data:
+        gold: 0
+    - rid: 4903346097322721280
+      type: {class: GoldSpendable, ns: App.Modules.Domain.Mechanics_Features.Gold, asm: App.Gold}
+      data:
+        gold: 0
